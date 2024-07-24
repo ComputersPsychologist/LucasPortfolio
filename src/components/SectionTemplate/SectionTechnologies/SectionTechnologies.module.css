@@ -1,0 +1,38 @@
+.section {
+  /* height: 300vh; */
+
+  width: 100vw;
+  /* background-image: url('/techbg.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y:35%;
+  background-size: 800%; */
+}
+
+.techscont {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  place-items: center;
+  gap: 2rem;
+  height: 50vh;
+
+  background-color: rgb(88, 88, 88);
+  border-radius: 50px;
+  color: rgb(42, 42, 42);
+  font-weight: bolder;
+}
+
+.oneTechCont {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+.oneTechCont span::first-letter {
+  text-transform: uppercase;
+}
+
+.icon {
+  width: auto;
+  height: 4rem;
+}

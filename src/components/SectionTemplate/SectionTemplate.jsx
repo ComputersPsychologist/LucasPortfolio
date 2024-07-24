@@ -16,7 +16,7 @@ export default function SectionTemplate ({children, title, sub, imgNum, color}) 
     <section className={styles.section} style={template}>
       <div className={styles.titleCont} style={numTemplate}>
         <h3>{word[0]}</h3>
-        <h3>{`${word[1]} ${word[2]}`}</h3>
+        <h3>{`${word[1] + ' ' + word[2]}`}</h3>
         <span>{sub}</span>
       </div>
       {children}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" id="svg2" viewBox="0 0 23.644 24.351" version="1.0" inkscape:version="0.91 r13725">
+  <defs id="defs4">
+    <linearGradient id="linearGradient2464" y2="36.375" gradientUnits="userSpaceOnUse" x2="34.5" gradientTransform="matrix(.45216 0 0 .45216 -2.4192 -1.1992)" y1="34.75" x1="23.375">
+      <stop id="stop14268" style="stop-color:#73d216" offset="0"/>
+      <stop id="stop14270" style="stop-color:#5ba711" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2481" y2="36.375" gradientUnits="userSpaceOnUse" x2="34.5" gradientTransform="matrix(.45216 0 0 .45216 1.5583 -9.9055)" y1="34.75" x1="23.375">
+      <stop id="stop9398" style="stop-color:#00aef5" offset="0"/>
+      <stop id="stop9400" style="stop-color:#0043c6" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-2.6075 -2.2461)">
+    <path id="path2471" style="opacity:.6;fill:#3e86fc" d="m9.6523 6.5419l5.4257 3.6171v6.33l-5.4257-3.617v-6.3301z"/>
+    <path id="path2473" style="opacity:.7;fill:url(#linearGradient2481)" d="m15.983 2.9246l5.425 3.6173-6.33 3.6171-5.4257-3.6171 6.3307-3.6173z"/>
+    <path id="path2475" style="opacity:.6;fill:#002bb6" d="m21.408 6.5419v6.3301l-6.33 3.617v-6.33l6.33-3.6171z"/>
+    <path id="path2477" style="opacity:.6;fill:#3eaafc" d="m15.972 2.9621l5.426 3.6173v6.3306l-5.426-3.6176v-6.3303z"/>
+    <path id="path2479" style="opacity:.6;fill:#0079b6" d="m16.017 2.9179v6.3303l-6.3305 3.6168v-6.3298l6.3305-3.6173z"/>
+    <path id="path9362" style="opacity:.6;fill:#52fc3e" d="m5.6748 15.248l5.4262 3.617v6.331l-5.4262-3.618v-6.33z"/>
+    <path id="path9364" style="opacity:.7;fill:url(#linearGradient2464)" d="m12.005 11.631l5.426 3.617-6.33 3.617-5.4262-3.617 6.3302-3.617z"/>
+    <path id="path9366" style="opacity:.6;fill:#00b658" d="m17.431 15.248v6.33l-6.33 3.618v-6.331l6.33-3.617z"/>
+    <path id="path2467" style="opacity:.6;fill:#3efc7f" d="m11.995 11.668l5.425 3.618v6.33l-5.425-3.617v-6.331z"/>
+    <path id="path2469" style="opacity:.6;fill:#05b600" d="m12.039 11.624v6.33l-6.33 3.618v-6.331l6.33-3.617z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>3d cubes</dc:title>
+        <dc:date>2009-03-11T09:26:15</dc:date>
+        <dc:description/>
+        <dc:source>https://openclipart.org/detail/22127/3d-cubes-by-peileppe-22127</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peileppe</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>blue</rdf:li>
+            <rdf:li>crystal</rdf:li>
+            <rdf:li>green</rdf:li>
+            <rdf:li>perspective</rdf:li>
+            <rdf:li>remix</rdf:li>
+            <rdf:li>translucid</rdf:li>
+            <rdf:li>transparent</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

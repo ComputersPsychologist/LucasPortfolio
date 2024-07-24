@@ -1,0 +1,25 @@
+.text {
+  position:relative;
+  white-space:nowrap;
+  font-size: 3.5rem;
+  font-weight: 350;
+  line-height: 100%;
+  text-align: start;
+  user-select: none;
+}
+
+.text::first-letter {
+  margin-left: .015em;
+}
+
+.textWhite {
+  color: rgb(0, 0, 0);
+  font-family: 'soulmaze';
+}
+
+.cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+

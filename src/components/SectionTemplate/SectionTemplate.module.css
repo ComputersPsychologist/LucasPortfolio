@@ -1,0 +1,24 @@
+.section {
+  width: 100vw;
+  color: white;
+}
+
+.titleCont {
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: 0 35%;
+  background-size: 65%;
+  padding: 0 1rem;
+}
+
+.titleCont h3 {
+  font-size: 1.5rem;
+  font-family: 'soulmaze', sans-serif;
+}
+
+.titleCont span {
+
+}

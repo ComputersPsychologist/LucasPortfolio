@@ -1,0 +1,10 @@
+.nav {
+  position: fixed;
+  right: 3.8%;
+  top: 3%;
+}
+
+.nav img {
+  filter: invert() ;
+  height: 2.3rem;
+}

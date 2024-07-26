@@ -4,6 +4,8 @@ import Header from "@/components/Header/Header"
 import SectionWelcome from "@/components/SectionWelcome/SectionWelcome";
 import SectionTemplate from "@/components/SectionTemplate/SectionTemplate";
 import SectionTechnologies from "@/components/SectionTemplate/SectionTechnologies/SectionTechnologies";
+import SectionProjects from "@/components/SectionTemplate/SectionProjects/SectionProjects";
+import Card from "@/components/Card/Card";
 
 export default function Home() {
 
@@ -50,6 +52,31 @@ export default function Home() {
         <SectionTechnologies 
           techsArray={techIcons}
         />
+      </SectionTemplate>
+      <SectionTemplate 
+        imgNum={4}
+        color={'white'}
+        title={'PROJECTS'}
+        sub={'Hundreds of succesful projects under our belt'}
+      >
+        <SectionProjects>
+          <Card
+            img={'/project1.jpg'}
+            title={'SOLAR GROUP'}
+            client={'Solar Group'}
+            year={'2019'}
+            techs={['fasgfaga', 'fasfsagha', 'gfhsasfdshs']}
+            text={""}
+           />
+                     <Card
+            img={'/project1.jpg'}
+            title={'SOLAR GROUP'}
+            client={'Solar Group'}
+            year={'2019'}
+            techs={['fasgfaga', 'fasfsagha', 'gfhsasfdshs']}
+            text={""}
+           />
+        </SectionProjects>
       </SectionTemplate>
     </>
   );

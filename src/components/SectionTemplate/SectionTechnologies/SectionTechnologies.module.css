@@ -13,12 +13,12 @@
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   place-items: center;
-  gap: 2rem;
+  gap: 0rem;
   height: 50vh;
 
-  background-color: rgb(88, 88, 88);
-  border-radius: 50px;
-  color: rgb(42, 42, 42);
+  /* background-color: rgb(88, 88, 88);
+  border-radius: 50px; */
+  color: #ffffff;
   font-weight: bolder;
 }
 
@@ -34,5 +34,62 @@
 
 .icon {
   width: auto;
-  height: 4rem;
+  height: 3.2rem;
+}
+
+.animate {
+  animation: rotate 15s linear infinite;
+}
+
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+/* ----------- ANIMATION ENTRANCE --------------*/
+
+.intersecting {
+  animation: entrance 1.8s linear ;
+}
+
+@keyframes entrance {
+  0% { filter: opacity(0)}
+  100% { filter: opacity(1)}
+}
+
+.techscont > div:nth-child(1) {
+  animation-delay: .20s;
+}
+
+.techscont > div:nth-child(2) {
+  animation-delay: .40s;
+}
+
+.techscont > div:nth-child(3) {
+    animation-delay: .60s;
+}
+
+.techscont > div:nth-child(4) {
+    animation-delay: .80s;
+}
+
+.techscont > div:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.techscont > div:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+.techscont > div:nth-child(7) {
+    animation-delay: 1.4s;
+}
+
+.techscont > div:nth-child(8) {
+    animation-delay: 1.6s;
+}
+
+.techscont > div:nth-child(9) {
+    animation-delay: 1.8s;
 }

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/components/Header/Header"
 import SectionWelcome from "@/components/SectionWelcome/SectionWelcome";
@@ -6,6 +5,7 @@ import SectionTemplate from "@/components/SectionTemplate/SectionTemplate";
 import SectionTechnologies from "@/components/SectionTemplate/SectionTechnologies/SectionTechnologies";
 import SectionProjects from "@/components/SectionTemplate/SectionProjects/SectionProjects";
 import Card from "@/components/Card/Card";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
 
@@ -65,19 +65,30 @@ export default function Home() {
             title={'SOLAR GROUP'}
             client={'Solar Group'}
             year={'2019'}
-            techs={['fasgfaga', 'fasfsagha', 'gfhsasfdshs']}
+            techs={[
+              ['React v18','react'],
+              ['Next.js v14','next'],
+              ['JavaScript', 'javascript'],
+              ['Github', 'git']
+            ]}
             text={""}
            />
-                     <Card
+          <Card
             img={'/project1.jpg'}
             title={'SOLAR GROUP'}
             client={'Solar Group'}
             year={'2019'}
-            techs={['fasgfaga', 'fasfsagha', 'gfhsasfdshs']}
+            techs={[
+              ['React v18','react'],
+              ['Next.js v14','next'],
+              ['JavaScript', 'javascript'],
+              ['Github', 'git']
+            ]}
             text={""}
            />
         </SectionProjects>
       </SectionTemplate>
+      <Footer />
     </>
   );
 }

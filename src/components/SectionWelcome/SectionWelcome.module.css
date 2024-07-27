@@ -15,7 +15,9 @@
 }
 
 .textCont {
+  margin-right: auto;
   width: 100vw;
+  text-wrap: wrap;
   display: grid;
   gap: 1rem;
   padding: 0 1rem;

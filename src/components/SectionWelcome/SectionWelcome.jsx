@@ -1,5 +1,6 @@
 'use client'
 import styles from "./SectionWelcome.module.css"
+import ParallaxText from "@/components/ParallaxText/ParallaxText"
 import useMarquee from "@/hooks/useMarquee"
 import Marquee from "../marquee/Marquee"
 
@@ -10,14 +11,18 @@ export default function SectionWelcome () {
   return (
     <section className={styles.section}>
       <div className={styles.marqueeCont}>
-        <Marquee 
+        {/* <Marquee 
           text={`WEB DEVELOPER`} 
           direction={forwardStyle}
         />
         <Marquee 
           text={`LUCAS WAINSTEIN`} 
           direction={backwardStyle} 
-        />
+        /> */}
+      <ParallaxText 
+        text1={"lucas wainstein"}
+        text2={"web developer"}
+         />
       </div>
       <div className={styles.textCont}>
         <p className={styles.text}>
